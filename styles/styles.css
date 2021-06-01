@@ -3,6 +3,68 @@
   font-family: "Days One", sans-serif;
 }
 
+.conteiner-header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  background-color: #0e0e5a;
+  color: white;
+  font-size: large;
+}
+
+.inline {
+  display: inline;
+}
+
+.search-header {
+  background-color: #0e0e5a;
+  border: none;
+  color: white;
+  width: 90%;
+}
+.search-header:focus {
+  outline: none;
+  color: white;
+  animation: underline 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes underline {
+  0% {box-shadow: 0px 1px 0px RGBA(256, 256, 256, 0);}
+  50% {box-shadow: 0px 1px 0px RGBA(256, 256, 256, 1);}
+  100% {box-shadow: 0px 1px 0px RGBA(256, 256, 256, 0);}
+}
+
+#search {;
+}
+
+.outsearch-header {
+  background-color: #0e0e5a;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  border-color: white;
+  border: 2px solid;
+  border-radius: 25px;
+  color: white;
+}
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.75;
+}
+
+input:focus {
+  color: #fff;
+}
+
 section {
   background-color: RGBA(61, 11, 102, 0.75);
   color: white;
@@ -17,11 +79,6 @@ aside {
 .contenedor-aside {
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-.btn {
-  background: #0e0e5a;
-  color: #fff;
 }
 
 p.h1 {
@@ -51,20 +108,6 @@ p.h1 {
 .conteiner-footer {
   background: #0e0e5a;
   color: white;
-}
-
-.conteiner-header {
-  position: fixed;
-  width: 100%;
-  z-index: 1;
-  top: 0;
-  background-color: #0e0e5a;
-  color: white;
-  font-size: large;
-}
-
-.search-header {
-  background-color: #0e0e5a;
 }
 
 .medio {
@@ -128,14 +171,6 @@ p.op {
   height: 250px;
 }
 
-::placeholder {
-  color: white;
-  opacity: 1;
-}
-
-input:focus {
-  color: #fff;
-}
 .fro {
   text-decoration: none;
 }

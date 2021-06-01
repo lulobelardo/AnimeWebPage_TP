@@ -6,21 +6,25 @@
     <link rel="stylesheet" href="styles/slider.css" type="text/css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- ??? -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <!-- Font Days One -->
     <link
       href="https://fonts.googleapis.com/css2?family=Days+One&display=swap"
       rel="stylesheet"
     />
-    <title>Anime</title>
+    <title>Manganime</title>
     <style>
       .fondo {
         background-image: url("img/BackGround.png");
+        background-color: #0e0e5a;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        background-position: center center;
       }
     </style>
     <script
@@ -32,34 +36,33 @@
   <body class="fondo">
     <!-- Header, se mantiene-->
     <header>
-      <div class="conteiner-header nav-bar w3-bar w3-mobile">
+      <div class="conteiner-header w3-bar w3-mobile">
         <span class="w3-bar-item w3-mobile">
-          <button class="btn">
-            <i class="fa fa-home w3-xlarge w3-btn barra" id="demo0"></i>
-          </button>
+          <a href="#HOME" class="fa fa-home w3-xlarge w3-btn barra" id="demo0">
+            <p class="inline" id="demo0">MANGANIME</p>
+          </a>
         </span>
-        <span class="w3-right w3-mobile">
+        <span class="w3-right">
           <span class="w3-bar-item w3-mobile">
             <a href="#NOTICIAS" class="w3-btn w3-mobile barra" id="demo1">NOTICIAS</a>
             <a href="#ANIME" class="w3-btn w3-mobile barra" id="demo2">ANIME</a>
-            <a href="#MANGA" class="w3-btn w3-mobile barra" id="demo3"> MANGA</a>
+            <a href="#MANGA" class="w3-btn w3-mobile barra" id="demo3">MANGA</a>
             <a href="#FORO" class="w3-btn w3-mobile barra" id="demo4">FORO</a>
           </span>
           <span class="w3-bar-item w3-mobile">
-            <input
-              class="w3-mobile search-header"
-              type="text"
-              placeholder="Buscar.."
-            />
-            <button class="btn">
-              <i class="w3-mobile fa fa-search w3-xlarge w3-btn"></i>
-            </button>
+            <form class="outsearch-header">
+              <input
+                class="search-header"
+                type="search"
+                placeholder="Buscar..."
+              />
+              <i class="fa fa-search" id="search"></i>
+            </form>
           </span>
           <span class="w3-bar-item w3-mobile">
-            <button class="btn">
-              <i class="fa fa-user w3-xlarge w3-btn" id="demo0"></i>
-            </button>
-            <!--Faltaria que funcione el boton de logearse y qque te abra algo de login con google-->
+            <a href="#LOGIN" class="fa fa-user w3-xlarge w3-btn barra" id="demo5">
+              <p class="inline" id="demo5">Log In</p>
+            </a>
           </span>
         </span>
       </div>
