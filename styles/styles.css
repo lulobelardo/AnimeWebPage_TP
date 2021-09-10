@@ -36,9 +36,6 @@
   100% {box-shadow: 0px 1px 0px RGBA(256, 256, 256, 0);}
 }
 
-#search {;
-}
-
 .outsearch-header {
   background-color: #0e0e5a;
   padding-left: 15px;
@@ -153,6 +150,17 @@ p.op {
 .coment-foro-sec {
   background-color: rgba(99, 110, 201, 0.75);
 }
+.login-sec {
+  background-color: rgba(99, 110, 201, 0.75);
+}
+.inputq {
+  background-color: rgba(99, 110, 201, 0.75);
+  color:white;
+  border: solid 1px;
+  width: 75%;
+  padding-left: ;
+  padding: 1%;
+}
 
 .text-foro {
   background-color: rgba(41, 142, 174, 0.75);
@@ -173,4 +181,14 @@ p.op {
 
 .fro {
   text-decoration: none;
+}
+
+textarea {
+  background-color: rgba(41, 142, 174, 0.75);
+  color: white;
+  border:solid 1px
+}
+
+.login {
+
 }
