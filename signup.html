@@ -72,25 +72,33 @@
   <div class="medio">
     <div class="w3-col w3-quarter"><p></p></div>
     <section class="w3-col w3-half w3-panel w3-center" >
-      <p class="h2">INICIAR SESIÓN</p>
+      <p class="h2">REGISTRARSE</p>
       <div class="
       w3-margin w3-center w3-row w3-padding login-sec w3-round">
-      <form action="login.php" method="post">
-        <div class="w3-margin">
-        <label class="w3-row" for="email">Direccion de correo electrónico:</label>
-        <input type="email" autocomplete="off" name="email" class="inputq" placeholder="example@mail.com">
+      <form action="signup.php" method="post">
+      <div class="w3-margin">
+      <label class="w3-row" for="username">Nombre de Usuario:</label>
+      <input type="name" autocomplete="off" name="username" class="inputq">
       </div>
       <div class="w3-margin">
-        <label class="w3-row" for="password">Contraseña:</label>
-        <input type="password" class="inputq" name="password">
-      </div>
-        <input class="w3-btn w3-mobile" type="submit" value="INGRESAR">
-      </form>
+      <label class="w3-row" for="email">Direccion de correo electrónico:</label>
+      <input type="email" autocomplete="off" name="email" class="inputq" placeholder="example@mail.com">
+    </div>
+    <div class="w3-margin">
+      <label class="w3-row" for="password">Contraseña:</label>
+      <input type="password" class="inputq" name="password">
+    </div>
+    <div class="w3-margin">
+      <label class="w3-row" for="passwordConfirm">Confirmar contraseña:</label>
+      <input type="password" class="inputq" name="passwordConfirm">
+    </div>
+      <input class="w3-btn w3-mobile" type="submit" value="REGISTRARSE">
+    </form>
     <hr>
     <div>
-      <label style="text-decoration: underline;">Si no posees una cuenta</label>
-      <a href="signup.html"  class="w3-btn w3-mobile">REGÍSTRATE </a>  
-      <P></P>
+      <p class="inline" style="text-decoration: underline;">Si ya posees una cuenta</p>
+      <a href="login.html"  class="w3-btn w3-mobile">INGRESAR </a>  
+  
     </div>
     </div>
     </section>
