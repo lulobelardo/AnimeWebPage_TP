@@ -1,4 +1,3 @@
-
 <header>
       <div class="conteiner-header w3-bar w3-mobile">
         <span class="w3-bar-item w3-mobile">
@@ -14,9 +13,10 @@
             <a href="foro.php" class="w3-btn w3-mobile barra" >FORO</a>
           </span>
           <span class="w3-bar-item w3-mobile">
-            <form class="outsearch-header">
+            <form method="get" action="<?php $_SERVER['PHP_SELF'] ?>" class="outsearch-header">
               <input
                 class="search-header"
+                name="search"
                 type="search"
                 placeholder="Buscar..."
               />
