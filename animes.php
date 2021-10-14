@@ -89,91 +89,9 @@ include "islogged.php"
       <p class="h2">LISTADO DE ANIMES</p>
       <div class="w3-conteiner textsection">
         <dl>
-          <dt>A</dt>
-          <dd><a href=""> AIR GEAR</a></dd>
-          <dd><a href=""> ATACK ON TITANS</a></dd>
-          <dt>B</dt>
-          <dd><a href=""> BURNING</a></dd>
-          <dt>C</dt>
-          <dd><a href=""> COLORFUL</a></dd>
-          <dt>D</dt>
-          <dd><a href=""> DRAGON BALL</a></dd>
-          <dd><a href=""> DRAGON BALL Z</a></dd>
-          <dd><a href=""> DRAGON BALL GT</a></dd>
-          <dd><a href=""> DRAGON BALL SUPER</a></dd>
-          <dt>E</dt>
-          <dd><a href=""> EL CASO DE HANA & ELISE</a></dd>
-          <dd><a href=""> EL EXTRAÑO </a></dd>
-          <dd><a href=""> EL INTENDENTE SANSHO</a></dd>
-          <dt>F</dt>
-          <dd><a href=""> FAIRY TAIL</a></dd>
-          <dd><a href=""> FREEDOM</a></dd>
-          <dd><a href=""> FURI KURI</a></dd>
-          <dt>G</dt>
-          <dd><a href=""> GIBIATE</a></dd>
-          <dd><a href=""> GOBLIN SLAYER</a></dd>
-          <dd><a href=""> GUNDAM BUILD DIVERS Re:RISE 2</a></dd>
-          <dt>H</dt>
-          <dd><a href=""> HARMONY</a></dd>
-          <dd><a href=""> HELLO WORLD</a></dd>
-          <dt>I</dt>
-          <dd><a href=""> ICE FANTASY</a></dd>
-          <dt>J</dt>
-          <dd><a href=""> JURASSIC</a></dd>
-          <dd><a href=""> JOJO’s BIZARRE ADVENTURA</a></dd>
-          <dt>K</dt>
-          <dd><a href=""> KILL GIANTS</a></dd>
-          <dd><a href=""> KING OF THORN</a></dd>
-          <dd><a href=""> KUNG FU SION</a></dd>
-          <dt>L</dt>
-          <dd><a href=""> LEVIUS</a></dd>
-          <dd><a href=""> LOVE CELL</a></dd>
-          <dd><a href=""> LUCID DREAM </a></dd>
-          <dt>M</dt>
-          <dd><a href=""> MADAME ANTOINE</a></dd>
-          <dd><a href=""> MAZINGER Z</a></dd>
-          <dt>N</dt>
-          <dd><a href=""> NARUTO</a></dd>
-          <dd><a href=""> NEVER DIE</a></dd>
-          <dd><a href=""> NOIR</a></dd>
-          <dd><a href=""> NORAGAMI ARAGOTO</a></dd>
-          <dt>O</dt>
-          <dd><a href=""> OKJA</a></dd>
-          <dd><a href=""> ONE PIECE</a></dd>
-          <dd><a href=""> ONE PUNCH MAN</a></dd>
-          <dt>P</dt>
-          <dd><a href=""> PADAM PADAM</a></dd>
-          <dd><a href=""> PERFECT BLUE</a></dd>
-          <dt>Q</dt>
-          <dd><a href=""> QUIERO SER SEIYU</a></dd>
-          <dt>R</dt>
-          <dd><a href=""> RANTARÓ, EL NINJA BOY</a></dd>
-          <dd><a href=""> ReLIFE</a></dd>
-          <dd><a href=""> ROUJIN Z</a></dd>
-          <dd><a href=""> ROROUNI KENSHIN</a></dd>
-          <dt>S</dt>
-          <dd><a href=""> SAGRADA RESET</a></dd>
-          <dd><a href=""> SAHIJATE NO PALADIN</a></dd>
-          <dt>T</dt>
-          <dd><a href=""> THE GREAT BATTLE</a></dd>
-          <dd><a href=""> TOKYO GHOUL</a></dd>
-          <dd><a href=""> TSUKIUTA: 12 CON RITMO</a></dd>
-          <dt>U</dt>
-          <dd><a href=""> USHOIO TO TORA</a></dd>
-          <dd><a href=""> UTA NO PRINCE-SAMA MAJI LOVE 1000%</a></dd>
-          <dt>V</dt>
-          <dd><a href=""> VIAJE A AGARTHA</a></dd>
-          <dt>W</dt>
-          <dd><a href=""> WOLF’s RAIN</a></dd>
-          <dd><a href=""> WOODPECKERS DETECTIVE’s OFFICE</a></dd>
-          <dt>Y</dt>
-          <dd><a href=""> YATERMAN</a></dd>
-          <dd><a href=""> YES KA NO KA HANBUNKA</a></dd>
-          <dd><a href=""> YOUR NAME</a></dd>
-          <dd><a href=""> YUKI YUNA IS A HERO</a></dd>
-          <dt>Z</dt>
-          <dd><a href=""> ZATOICHI</a></dd>
-          <dd><a href=""> ZOMBIELAND SAGA</a></dd>
+          <?php 
+            include "search.php";
+          ?>
         </dl>
       </div>
     </section>
